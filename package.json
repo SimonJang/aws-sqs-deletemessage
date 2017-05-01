@@ -1,0 +1,41 @@
+{
+  "name": "aws-sqs-deletemessage",
+  "version": "0.0.0",
+  "description": "Delete message from AWS SQS",
+  "license": "MIT",
+  "repository": "SimonJang/aws-sqs-deletemessage",
+  "author": {
+    "name": "simonjang",
+    "email": "simon.jang.contact@gmail.com",
+    "url": "github.com/SimonJang"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "aws",
+    "amazon",
+    "sqs",
+    "queue",
+    "delete",
+    "del",
+    "message"
+  ],
+  "dependencies": {
+    "aws-sqs-geturl": "^1.0.0",
+    "is-aws-account-id": "^1.0.0",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "aws-sdk": "^2.48.0",
+    "nyc": "^10.3.0",
+    "xo": "^0.18.1"
+  }
+}
